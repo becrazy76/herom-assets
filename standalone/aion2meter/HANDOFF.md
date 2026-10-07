@@ -24,7 +24,8 @@ Stand: 07.10.2026. Neue, unabhängige deutsche Landingpage für Aion2Meter Beta 
 
 ## Verifizierte Veröffentlichung und Prüfung
 
-- URL: `https://aion2meter.vercel.app`.
+- Öffentliche Hauptadresse: `https://www.herom76.de/aion2meter` (auch ohne www erreichbar).
+- Technische Hosting-Adresse: `https://aion2meter.vercel.app`.
 - Erstveröffentlichung: Vercel-Produktion, Zustand READY.
 - Quellcommit: `fbf29af0c493592051698f9d6405bf713afd6db3`.
 - Deployment: `dpl_GPUxdWrcEMtZHWALqeAQs15WwEZp`.
@@ -47,3 +48,9 @@ Die Landingpage ist öffentlich erreichbar. Die bestehende Hauptseite bleibt unv
 3. Bei nächstem App-Release `release.json`, HTML-Fallback und PDF gemeinsam pflegen.
 
 Nicht automatisch umgesetzt: Hauptseitenintegration, Telemetrie, E-Mail-Formulare oder Community-Nachrichten.
+
+## Live-Prüfung der gewünschten Hauptadresse
+
+Am 07.10.2026 geprüft: `https://herom76.de/aion2meter` führt auf die bestehende www-Domain und liefert die Landingpage mit HTTP 200. CSS, JavaScript, Produktbild und PDF liefern HTTP 200. `release.json` liefert Beta 0.1.4. Im Browser funktionieren Schaden/Heilung und die Abschnittsnavigation unter `/aion2meter#vorschau`; die Hauptseite bleibt erreichbar.
+
+Routing-Commit in `herom76-website`: `3fc54a41d065c0ca0ee168b73d9bd618cdf1e720`, erfolgreich als Produktion veröffentlicht. Die Hauptseite enthält nur externe Pfad-Rewrites, keine Integration des Landingpage-Layouts.
