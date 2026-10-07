@@ -62,3 +62,5 @@ Der Nutzer hat die Landingpage dem Meter-Chat zur weiteren Betreuung übergeben.
 Aktueller Produktstand: Beta 0.1.6. Download-Metadaten, HTML-Fallbacks, Anleitung und Originalansichten wurden gemeinsam aktualisiert. Die oben aufgeführten Erstveröffentlichungsprüfungen sind historische Angaben.
 
 Beta 0.1.7: Eigene Tastenbelegung, Konfliktprüfung, Ersatzkürzel und App-Symbol. Download und Anleitung gemeinsam aktualisiert.
+
+Beta 0.1.8: Demo-Modus im Menü mit getrennten synthetischen Kampfdaten und Rückkehr zur vorherigen Messung. Installer und Anleitung aktualisiert.
