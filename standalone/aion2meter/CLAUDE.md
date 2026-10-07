@@ -22,6 +22,10 @@ Bitte zuerst `README.md` und `HANDOFF.md` lesen. Dieses Dokument gilt nur für `
 
 ## Veröffentlichung
 
+- Hauptadresse: `https://www.herom76.de/aion2meter`.
+- Routing liegt in `becrazy76/herom76-website/next.config.ts`: Nur `/aion2meter` samt Unterpfaden wird extern an `https://aion2meter.vercel.app` weitergereicht.
+- Landingpage bleibt im eigenen Projekt. `<base href="/aion2meter/">`, lokale Pfadunterstützung und Vercel-Präfix-Rewrites gemeinsam erhalten.
+
 - Remote: `https://github.com/becrazy76/herom-assets.git`, Branch `main`.
 - Eigener Ordner: `standalone/aion2meter`.
 - Vercel-Projekt-ID: `prj_wFMlg8XUykLAq0g6kXAeqgS03wDI`; Name `aion2meter`.

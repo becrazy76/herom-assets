@@ -14,6 +14,10 @@ Stand: 07.10.2026. Neue, unabhängige deutsche Landingpage für Aion2Meter Beta 
 
 ## Ziele
 
+- Gewünschte Hauptadresse: `https://www.herom76.de/aion2meter`, auch über `https://herom76.de/aion2meter` erreichbar.
+- Nur die Pfadzuordnung wird in der Hauptwebseite ergänzt; die Landingpage bleibt unabhängig veröffentlicht.
+- Assets und relative Links sind über den Basis-Pfad `/aion2meter/` aufgelöst. Das Vercel-Projekt und der lokale Server unterstützen diesen Pfad ebenfalls.
+
 - GitHub: `becrazy76/herom-assets`, `main`, `standalone/aion2meter`.
 - Vercel: `aion2meter`, Projekt `prj_wFMlg8XUykLAq0g6kXAeqgS03wDI`, Team `herom`.
 - Die veröffentlichten Dateien werden aus `public` des eigenen Ordners ausgeliefert.
@@ -24,8 +28,7 @@ Stand: 07.10.2026. Neue, unabhängige deutsche Landingpage für Aion2Meter Beta 
 - Erstveröffentlichung: Vercel-Produktion, Zustand READY.
 - Quellcommit: `fbf29af0c493592051698f9d6405bf713afd6db3`.
 - Deployment: `dpl_GPUxdWrcEMtZHWALqeAQs15WwEZp`.
-- Der Nutzer hat am 07.10.2026 ausdrücklich die öffentliche Freigabe bestätigt. Der Anmeldeschutz wurde ausschließlich für das neue Projekt `aion2meter` abgeschaltet.
-- Öffentliche Prüfung ohne Anmeldung bestanden: Startseite HTTP 200 mit Landingpage-Inhalt, keine Vercel-Loginseite; `release.json` liefert Beta 0.1.4; PDF-Anleitung HTTP 200.
+- Der Nutzer hat am 07.10.2026 ausdrücklich die öffentliche Freigabe bestätigt. Der Anmeldeschutz wurde ausschließlich für das neue Projekt aion2meter abgeschaltet. Öffentliche Prüfung bestanden: Startseite und PDF HTTP 200, Release-Metadaten Beta 0.1.4, keine Vercel-Loginseite.
 - JavaScript-Syntaxprüfung bestanden.
 - Schaden-/Heilungswechsel, Spielerklick und Detailwechsel getestet.
 - Tastaturwechsel der Tabs mit Pfeiltasten getestet.

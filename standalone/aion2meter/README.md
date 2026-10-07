@@ -4,6 +4,10 @@ Eigenständige deutsche Landingpage im HEROM-Stil. Die Hauptwebseite wird nicht 
 
 ## Quelle und Veröffentlichung
 
+- Öffentliche Hauptadresse: `https://www.herom76.de/aion2meter` (auch ohne www erreichbar).
+- Die Hauptseite nutzt ausschließlich externe Rewrites in `next.config.ts`: `/aion2meter` und `/aion2meter/:path*` werden an das eigenständige Projekt weitergereicht.
+- HTML verwendet `<base href="/aion2meter/">`; die Vercel-Konfiguration und der lokale Server bedienen diesen Präfix ebenfalls. Bilder, PDF, Skripte, Metadaten und Sprunglinks funktionieren damit unter beiden Adressen.
+
 - GitHub: `becrazy76/herom-assets`, Branch `main`, Ordner `standalone/aion2meter`.
 - Eigenes Vercel-Projekt: `aion2meter` (`prj_wFMlg8XUykLAq0g6kXAeqgS03wDI`).
 - Vercel-Team: `herom` (`team_FtyxgIi2bxArJap43IBiI53a`).
