@@ -74,3 +74,5 @@ Beta 0.1.11: Einstellungen bleiben vor dem Overlay und werden aktiviert; Anleitu
 Beta 0.1.12: Optionales V3n0m1978-Theme mit eingebettetem Kanalavatar, Namen, rotem Akzent und Stahlrahmen; Download und Anleitung synchronisiert.
 
 Beta 0.1.13: Benutzer-Motiv mit 16 % Deckkraft im V3n0m1978-Overlay; proportional skaliert, Weiß beim Zeichnen ausgeblendet. Download und Anleitung synchronisiert.
+
+Beta 0.1.14: Replay-Pufferfehler behoben; 75 Checks und vier Replay-Audits mit zwei Aufnahmen. Zuordnung erklären im Diagnose-Untermenü, lokaler Bericht mit Besitzer-Evidenz und Filterentscheidungen. Download/Anleitung synchronisiert.

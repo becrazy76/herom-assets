@@ -1,9 +1,9 @@
 {
-  "version": "0.1.13",
+  "version": "0.1.14",
   "publishedAt": "2026-10-07",
-  "downloadUrl": "https://github.com/becrazy76/herom-assets/releases/download/aion2meter-v0.1.13/Aion2Meter-Beta-0.1.13-Setup.exe",
-  "releaseUrl": "https://github.com/becrazy76/herom-assets/releases/tag/aion2meter-v0.1.13",
-  "sizeBytes": 37635956,
+  "downloadUrl": "https://github.com/becrazy76/herom-assets/releases/download/aion2meter-v0.1.14/Aion2Meter-Beta-0.1.14-Setup.exe",
+  "releaseUrl": "https://github.com/becrazy76/herom-assets/releases/tag/aion2meter-v0.1.14",
+  "sizeBytes": 37636148,
   "sizeLabel": "35,9 MB",
-  "sha256": "217ee26de7e5606ec2aba641216d8018371c07dd431c3efb45f61dbd53280cf4"
+  "sha256": "dec28aaa0d6aefb5d7be6cb730cf537ae2ff99b8a67556c3b2b129235737eb39"
 }
