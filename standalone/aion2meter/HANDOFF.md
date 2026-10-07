@@ -68,3 +68,5 @@ Beta 0.1.8: Demo-Modus im Menü mit getrennten synthetischen Kampfdaten und Rüc
 Beta 0.1.9: Installer-Informationen aktualisiert und Versionsangaben automatisch abgeleitet; Anleitung und Download synchronisiert.
 
 Beta 0.1.10: Menü mit sechs Bereichen, Einstellungen mit Übernehmen/Schließen, Release Notes und Roadmap ergänzt; Anleitung und Download synchronisiert.
+
+Beta 0.1.11: Einstellungen bleiben vor dem Overlay und werden aktiviert; Anleitung und Download synchronisiert.

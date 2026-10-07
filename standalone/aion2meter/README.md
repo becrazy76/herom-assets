@@ -67,7 +67,7 @@ Die App-Update-Infrastruktur bleibt unabhängig: Der Meter verwendet weiterhin d
 
 ## Inhalt und Quellen
 
-Verifizierter Produktstand vom 07.10.2026: Beta 0.1.10. Installer: `https://github.com/becrazy76/herom-assets/releases/tag/aion2meter-v0.1.10`. App und Landingpage werden im Meter-Chat gemeinsam betreut; technische Hosting-Projekte bleiben getrennt.
+Verifizierter Produktstand vom 07.10.2026: Beta 0.1.11. Installer: `https://github.com/becrazy76/herom-assets/releases/tag/aion2meter-v0.1.11`. App und Landingpage werden im Meter-Chat gemeinsam betreut; technische Hosting-Projekte bleiben getrennt.
 
 Funktionen und Grenzen stammen aus dem lokalen Projekt `Aion2Meter`, dem Chat **Build Aion2Meter prototype** (`01a11299-2e27-7390-b167-86672b34882f`) und dessen `installer/BETA-HINWEISE.txt`. Ältere Stellen in der App-README enthalten inzwischen überholte Aussagen (z. B. keine Update-Funktion); sie wurden nicht als aktuelle Produktbehauptungen übernommen.
 
