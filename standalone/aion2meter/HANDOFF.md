@@ -70,3 +70,5 @@ Beta 0.1.9: Installer-Informationen aktualisiert und Versionsangaben automatisch
 Beta 0.1.10: Menü mit sechs Bereichen, Einstellungen mit Übernehmen/Schließen, Release Notes und Roadmap ergänzt; Anleitung und Download synchronisiert.
 
 Beta 0.1.11: Einstellungen bleiben vor dem Overlay und werden aktiviert; Anleitung und Download synchronisiert.
+
+Beta 0.1.12: Optionales V3n0m1978-Theme mit eingebettetem Kanalavatar, Namen, rotem Akzent und Stahlrahmen; Download und Anleitung synchronisiert.
