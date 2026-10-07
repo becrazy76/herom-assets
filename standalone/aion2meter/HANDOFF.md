@@ -54,3 +54,9 @@ Nicht automatisch umgesetzt: Hauptseitenintegration, Telemetrie, E-Mail-Formular
 Am 07.10.2026 geprüft: `https://herom76.de/aion2meter` führt auf die bestehende www-Domain und liefert die Landingpage mit HTTP 200. CSS, JavaScript, Produktbild und PDF liefern HTTP 200. `release.json` liefert Beta 0.1.4. Im Browser funktionieren Schaden/Heilung und die Abschnittsnavigation unter `/aion2meter#vorschau`; die Hauptseite bleibt erreichbar.
 
 Routing-Commit in `herom76-website`: `3fc54a41d065c0ca0ee168b73d9bd618cdf1e720`, erfolgreich als Produktion veröffentlicht. Die Hauptseite enthält nur externe Pfad-Rewrites, keine Integration des Landingpage-Layouts.
+
+## Gemeinsame Betreuung ab 07.10.2026
+
+Der Nutzer hat die Landingpage dem Meter-Chat zur weiteren Betreuung übergeben. App und Landingpage werden hier gemeinsam gepflegt: codex://threads/01a11299-2e27-7390-b167-86672b34882f.
+
+Aktueller Produktstand: Beta 0.1.6. Download-Metadaten, HTML-Fallbacks, Anleitung und Originalansichten wurden gemeinsam aktualisiert. Die oben aufgeführten Erstveröffentlichungsprüfungen sind historische Angaben.
