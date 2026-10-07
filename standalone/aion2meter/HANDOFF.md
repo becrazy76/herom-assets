@@ -60,3 +60,5 @@ Routing-Commit in `herom76-website`: `3fc54a41d065c0ca0ee168b73d9bd618cdf1e720`,
 Der Nutzer hat die Landingpage dem Meter-Chat zur weiteren Betreuung übergeben. App und Landingpage werden hier gemeinsam gepflegt: codex://threads/01a11299-2e27-7390-b167-86672b34882f.
 
 Aktueller Produktstand: Beta 0.1.6. Download-Metadaten, HTML-Fallbacks, Anleitung und Originalansichten wurden gemeinsam aktualisiert. Die oben aufgeführten Erstveröffentlichungsprüfungen sind historische Angaben.
+
+Beta 0.1.7: Eigene Tastenbelegung, Konfliktprüfung, Ersatzkürzel und App-Symbol. Download und Anleitung gemeinsam aktualisiert.
