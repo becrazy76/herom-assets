@@ -64,3 +64,5 @@ Aktueller Produktstand: Beta 0.1.6. Download-Metadaten, HTML-Fallbacks, Anleitun
 Beta 0.1.7: Eigene Tastenbelegung, Konfliktprüfung, Ersatzkürzel und App-Symbol. Download und Anleitung gemeinsam aktualisiert.
 
 Beta 0.1.8: Demo-Modus im Menü mit getrennten synthetischen Kampfdaten und Rückkehr zur vorherigen Messung. Installer und Anleitung aktualisiert.
+
+Beta 0.1.9: Installer-Informationen aktualisiert und Versionsangaben automatisch abgeleitet; Anleitung und Download synchronisiert.
