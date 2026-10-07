@@ -72,3 +72,5 @@ Beta 0.1.10: Menü mit sechs Bereichen, Einstellungen mit Übernehmen/Schließen
 Beta 0.1.11: Einstellungen bleiben vor dem Overlay und werden aktiviert; Anleitung und Download synchronisiert.
 
 Beta 0.1.12: Optionales V3n0m1978-Theme mit eingebettetem Kanalavatar, Namen, rotem Akzent und Stahlrahmen; Download und Anleitung synchronisiert.
+
+Beta 0.1.13: Benutzer-Motiv mit 16 % Deckkraft im V3n0m1978-Overlay; proportional skaliert, Weiß beim Zeichnen ausgeblendet. Download und Anleitung synchronisiert.
