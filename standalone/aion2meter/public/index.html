@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0b0e">
+  <meta name="description" content="Aion2Meter: Damage- und Heal-Meter für AION 2 Global. Kompaktes Windows-Overlay mit Fähigkeiten, Zielen und Kampfverlauf. Jetzt die Beta testen.">
+  <meta property="og:title" content="Aion2Meter — Verstehe deinen Kampf.">
+  <meta property="og:description" content="Schaden, Heilung und die Details dahinter. Das unabhängige Windows-Overlay für AION 2 Global — jetzt als Beta.">
+  <meta property="og:type" content="website">
+  <title>Aion2Meter — Verstehe deinen Kampf.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="https://www.herom76.de" aria-label="Herom – zur Hauptseite">H E R O M<span class="brand-rule"></span></a>
+      <span class="header-project">Aion2Meter</span>
+      <a class="button button-small" href="#download">Beta herunterladen</a>
+    </div>
+    <nav class="subnav wrap" aria-label="Seitennavigation">
+      <a class="product-name" href="#main">Aion2Meter <span>Beta</span></a>
+      <div class="nav-links"><a href="#funktionen">Funktionen</a><a href="#vorschau">Vorschau</a><a href="#einrichtung">Einrichtung</a><a href="#fragen">FAQ</a></div>
+      <span class="platform">Windows · AION 2 Global</span>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="waymark"><span>01</span> Dein Kampf. Im Detail.</p>
+        <h1>Mehr als<br>eine Zahl.<br><em>Dein Aion2Meter.</em></h1>
+        <p class="hero-description">Schaden, Heilung und die Details dahinter. Ein kompaktes Overlay für AION 2 Global, das dir zeigt, was in deinem Kampf passiert.</p>
+        <div class="hero-actions"><a class="button" data-download href="https://github.com/becrazy76/herom-assets/releases/download/aion2meter-v0.1.4/Aion2Meter-Beta-0.1.4-Setup.exe">Windows-Beta herunterladen</a><a class="text-link" href="#vorschau">Meter entdecken</a></div>
+        <p class="download-meta"><span data-version>Beta 0.1.4</span><span>Windows 10 / 11 · 64 Bit</span><span>.NET enthalten</span></p>
+      </div>
+
+      <div class="hero-meter">
+        <div class="demo-label"><span class="small-diamond"></span> Interaktive Vorschau <span>Beispieldaten</span></div>
+        <div class="meter-shell">
+          <div class="meter-title"><span><span class="small-diamond"></span> AION2 METER</span><span class="encounter-time">Kampf · 03:42</span><span aria-hidden="true">⋮</span></div>
+          <div class="meter-controls"><div class="metric-tabs" role="tablist" aria-label="Auswertung der Vorschau"><button type="button" id="damage-tab" role="tab" aria-selected="true" aria-controls="meter-panel" data-metric="damage">Schaden</button><button type="button" id="heal-tab" role="tab" aria-selected="false" aria-controls="meter-panel" tabindex="-1" data-metric="heal">Heilung</button></div><span>Gesamt / pro Sekunde</span></div>
+          <div id="meter-panel" class="meter-panel" role="tabpanel" aria-labelledby="damage-tab" tabindex="0">
+            <div id="meter-rows" class="meter-rows"></div>
+          </div>
+          <div class="meter-bottom"><span>Gruppe · 5 Spieler</span><span>Spieler anklicken für Details</span></div>
+        </div>
+        <div class="detail-preview" aria-live="polite"><div class="detail-heading"><b id="detail-name">Herom</b><span id="detail-metric">Fähigkeiten · Schaden</span></div><div id="detail-skills"></div><p>Darstellung zur Erklärung · keine Live-Spielmessung</p></div>
+        <p class="hero-caption">Das Wesentliche im Blick. Die Details einen Klick entfernt.</p>
+      </div>
+    </section>
+
+    <div class="summary-band"><div class="wrap summary-grid"><div><b>Damage & Heal</b><span>Schaden, DPS, Heilung und HPS</span></div><div><b>Dein Overlay</b><span>Bis zu vier unabhängige Fenster</span></div><div><b>Deine Daten</b><span>Aufnahmen und Berichte bleiben lokal</span></div></div></div>
+
+    <section id="funktionen" class="section wrap">
+      <div class="section-intro"><p class="waymark"><span>02</span> Analyse</p><h2>Was zählt,<br><em>ist das Zusammenspiel.</em></h2><p>Eine Zahl zeigt das Ergebnis. Fähigkeiten, Ziele und Verlauf helfen dir, den Kampf zu verstehen — für dich und deine Gruppe.</p></div>
+      <div class="feature-grid">
+        <article class="feature"><span class="feature-index">01 / DAMAGE</span><h3>Schaden & DPS</h3><p>Gesamtschaden und Schaden pro Sekunde. Wechsle zwischen aktuellem Kampf, einzelnen Kämpfen und der Gesamtansicht.</p><div class="feature-motif motif-bars" aria-hidden="true"><i></i><i></i><i></i></div></article>
+        <article class="feature"><span class="feature-index">02 / HEALING</span><h3>Heilung & HPS</h3><p>Beobachtete Heilung und Heilung pro Sekunde — ergänzt durch Ansichten für erhaltenen Schaden und erhaltene Heilung.</p><div class="feature-motif motif-heal" aria-hidden="true">+</div></article>
+        <article class="feature"><span class="feature-index">03 / DETAILS</span><h3>Fähigkeiten im Detail</h3><p>Klicke auf einen Spieler. Sieh Fähigkeiten, Anteile, Treffer und kritische Treffer sowie Ziele und den persönlichen Kampfverlauf.</p><div class="feature-motif motif-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div></article>
+      </div>
+      <p class="inline-note">Frühe Beta: Gruppenzuordnung und mehrere Beschwörer brauchen noch weitere Tests. Werte können unvollständig sein.</p>
+    </section>
+
+    <section id="vorschau" class="section showcase">
+      <div class="wrap showcase-grid">
+        <div class="showcase-copy"><p class="waymark"><span>03</span> Im Spiel</p><h2>Weniger im Weg.<br><em>Mehr im Blick.</em></h2><p>Ein separates, randloses Overlay. Verschiebe es, passe Größe und Transparenz an und wähle die Auswertung für jedes Fenster.</p><ul class="check-list"><li>Bis zu vier Fenster für unterschiedliche Werte</li><li>Speichert Position und Darstellung lokal</li><li>Klickdurchleitung auf Tastendruck</li><li>Fähigkeiten, Ziele und Verlauf per Spielerklick</li></ul><div class="hotkeys"><div><kbd>Strg</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd><span>Overlay ein / aus</span></div><div><kbd>Strg</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd><span>Klickdurchleitung</span></div></div></div>
+        <figure class="real-overlay"><div class="image-caption"><span class="small-diamond"></span> Originalansicht · Herom-Theme</div><img src="assets/overlay.png" alt="Aion2Meter-Overlay mit Heroms Schaden als violettem Balken" width="390" height="280" loading="lazy"><figcaption>Ein aufgezeichneter Solo-Kampf. Begleiterschaden wird nach Zuordnung berücksichtigt.</figcaption></figure>
+      </div>
+      <figure class="details-frame wrap"><div class="image-caption">Ein Klick tiefer <span>Originalansicht · Spieleranalyse</span></div><img src="assets/player-details.png" alt="Spieleranalyse mit Gesamtschaden, Schaden pro Sekunde, Fähigkeiten, Anteilen und kritischen Treffern" width="900" height="580" loading="lazy"><figcaption>Einblick in die Beta: Fähigkeiten zuerst, Ziele und Kampfverlauf über die weiteren Ansichten.</figcaption></figure>
+    </section>
+
+    <section id="einrichtung" class="section wrap">
+      <div class="section-title"><div><p class="waymark"><span>04</span> Loslegen</p><h2>Drei Schritte.<br><em>Dann ab nach Atreia.</em></h2></div><a class="text-link" href="assets/anleitung.pdf" target="_blank" rel="noopener">Ausführliche Anleitung (PDF)</a></div>
+      <ol class="steps"><li><span class="step-number">01</span><h3>Npcap installieren</h3><p>Der Meter benötigt Npcap zum passiven Lesen des Netzwerkverkehrs. Npcap wird separat installiert und ist nicht im Installer enthalten.</p><a class="text-link" href="https://npcap.com/#download" target="_blank" rel="noopener">Zum offiziellen Npcap-Download</a></li><li><span class="step-number">02</span><h3>Meter starten</h3><p>Installiere die Windows-Beta und starte Aion2Meter möglichst vor dem Spiel oder vor einem erneuten Login. Netzwerk und eigene Figur werden automatisch erkannt.</p></li><li><span class="step-number">03</span><h3>Overlay platzieren</h3><p>Nutze den randlosen Fenstermodus in AION 2. Platziere dein Overlay und wähle Schaden oder Heilung. Über das Menü erreichst du Einstellungen und weitere Fenster.</p></li></ol>
+      <div class="requirements"><b>Voraussetzungen</b><span>Windows 10 22H2 oder Windows 11 · x64</span><span>Npcap separat · .NET enthalten</span></div>
+    </section>
+
+    <section class="beta-section wrap" aria-labelledby="beta-title"><div><p class="waymark"><span>05</span> Offen gesagt</p><h2 id="beta-title">Eine Beta.<br><em>Mit klaren Grenzen.</em></h2></div><div class="beta-copy"><p>Aion2Meter ist eine frühe Testversion. Die Auswertung ist noch keine vollständig geprüfte Schadensmessung. Hilf beim Testen — und behandle die Werte entsprechend.</p><ul><li>Gruppen und mehrere Beschwörer sind noch nicht umfassend geprüft.</li><li>Overheal, Absorbs, Todesursachen und Buff-Zeiten sind noch nicht verfügbar.</li><li>Fehlende Spielmeldungen können zu unbekannten Namen oder unvollständigen Werten führen.</li></ul><p class="beta-small">Der Meter liest Netzwerkverkehr passiv. Er verändert das Spiel nicht und liest keinen Spielprozessspeicher. Eine Freigabe durch den Spielanbieter wird nicht behauptet.</p></div></section>
+
+    <section id="fragen" class="section wrap faq-section"><div><p class="waymark"><span>06</span> Gut zu wissen</p><h2>Noch Fragen?</h2></div><div class="faq-list">
+      <details><summary>Ist Aion2Meter kostenlos?</summary><p>Die aktuelle Beta kannst du kostenlos herunterladen und testen. Sie ist ausdrücklich eine frühe Testversion.</p></details>
+      <details><summary>Ist das ein offizielles AION-2-Tool?</summary><p>Nein. Aion2Meter ist ein unabhängiges Community-Projekt. Es gibt keine behauptete Freigabe oder Partnerschaft mit dem Spielanbieter.</p></details>
+      <details><summary>Wie werden die Werte erfasst?</summary><p>Über passives Netzwerk-Capturing mit Npcap. Der Meter greift nicht auf den Spielprozessspeicher zu, verwendet keine Code-Injection und sendet keine Spielpakete. Der Decoder ist experimentell; nicht erkannte Meldungen können in den Werten fehlen.</p></details>
+      <details><summary>Werden meine Kampfaufnahmen hochgeladen?</summary><p>Nein, es gibt keinen automatischen Upload. Aufnahmen, Berichte und Fehlerprotokolle bleiben lokal. Rohaufnahmen können Spielernamen, Netzwerkadressen und weitere Verbindungsdaten enthalten. Teile sie nur gezielt und privat, wenn du das möchtest.</p></details>
+      <details><summary>Wie bekomme ich Updates?</summary><p>Ab Beta 0.1.4 prüft der Meter beim Start auf neue Versionen. Im Menü findest du außerdem „Nach Updates suchen“. Installiert wird nach deiner Bestätigung. Der Download wird geprüft; Einstellungen und Aufnahmen bleiben erhalten.</p></details>
+      <details><summary>Was tun, wenn Windows vor dem Installer warnt?</summary><p>Die Beta-Installationsdatei ist nicht digital signiert; Windows kann einen unbekannten Herausgeber melden. Nutze den hier verlinkten GitHub-Release und prüfe die Datei. Schalte Schutzfunktionen nicht pauschal ab. Die Anleitung enthält die Beta-Hinweise.</p></details>
+      <details><summary>Warum bleibt mein Meter leer?</summary><p>Prüfe Npcap und die aktive Netzwerkverbindung. Starte den Meter vor dem Spiel oder logge dich anschließend neu ein, damit Charakter- und Gruppenmeldungen erfasst werden. Diagnose und Replay findest du im Menü unter „Erweitert“.</p></details>
+    </div></section>
+
+    <section id="download" class="download-section"><div class="wrap download-grid"><div><p class="waymark">Aion2Meter <span data-version>Beta 0.1.4</span></p><h2>Dein nächster Kampf.<br><em>Ein bisschen klarer.</em></h2><p>Teste das Overlay und entdecke die Details hinter deinen Zahlen.</p></div><div class="download-box"><a class="button" data-download href="https://github.com/becrazy76/herom-assets/releases/download/aion2meter-v0.1.4/Aion2Meter-Beta-0.1.4-Setup.exe">Windows-Beta herunterladen</a><p><span data-version>Beta 0.1.4</span> · <span data-size>34,1 MB</span> · x64</p><a class="text-link" data-release href="https://github.com/becrazy76/herom-assets/releases/tag/aion2meter-v0.1.4" target="_blank" rel="noopener">Release & Download bei GitHub</a><a class="text-link" href="assets/anleitung.pdf" target="_blank" rel="noopener">Anleitung als PDF</a></div></div></section>
+  </main>
+  <footer class="wrap footer"><div><a class="brand" href="https://www.herom76.de">H E R O M</a><p>Aion2Meter · Ein unabhängiges Community-Projekt.</p></div><div class="footer-links"><a href="https://www.herom76.de">herom76.de</a><a href="https://discord.herom76.de" target="_blank" rel="noopener">Community</a><a href="https://www.herom76.de/impressum">Impressum</a><a href="https://www.herom76.de/datenschutz">Datenschutz</a></div><p class="trademark">AION 2 und zugehörige Marken gehören ihren jeweiligen Rechteinhabern. Kein offizielles Produkt.</p></footer>
+</body>
+</html>

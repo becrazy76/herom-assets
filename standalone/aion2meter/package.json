@@ -1,0 +1,8 @@
+{
+  "name": "aion2meter-landingpage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone HEROM-style landing page for Aion2Meter",
+  "scripts": { "dev": "node scripts/serve.mjs", "check": "node --check public/app.js" },
+  "engines": { "node": ">=22" }
+}
