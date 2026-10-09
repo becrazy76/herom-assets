@@ -78,3 +78,5 @@ Beta 0.1.13: Benutzer-Motiv mit 16 % Deckkraft im V3n0m1978-Overlay; proportiona
 Beta 0.1.14: Replay-Pufferfehler behoben; 75 Checks und vier Replay-Audits mit zwei Aufnahmen. Zuordnung erklären im Diagnose-Untermenü, lokaler Bericht mit Besitzer-Evidenz und Filterentscheidungen. Download/Anleitung synchronisiert.
 
 Beta 0.1.15: Installer-Informationen aktualisiert und Versionsangaben automatisch abgeleitet; Anleitung und Download synchronisiert.
+
+Beta 0.2.1: Installer-Informationen aktualisiert und Versionsangaben automatisch abgeleitet; Anleitung und Download synchronisiert.
