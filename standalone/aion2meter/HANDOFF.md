@@ -80,3 +80,5 @@ Beta 0.1.14: Replay-Pufferfehler behoben; 75 Checks und vier Replay-Audits mit z
 Beta 0.1.15: Installer-Informationen aktualisiert und Versionsangaben automatisch abgeleitet; Anleitung und Download synchronisiert.
 
 Beta 0.2.1: Installer-Informationen aktualisiert und Versionsangaben automatisch abgeleitet; Anleitung und Download synchronisiert.
+
+Beta 0.2.2: Installer-Informationen aktualisiert und Versionsangaben automatisch abgeleitet; Anleitung und Download synchronisiert.
